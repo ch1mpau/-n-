@@ -1,0 +1,19 @@
+body{
+    background: url('../login/images_login/wallpaper.jpeg');
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.login-container{
+    width: 100%;
+    max-width: 1000px;
+    background: #fff;
+    border-radius: 15px;
+    display: flex;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+.loginForm{
+    flex: 40%;
+    padding: 50px;
+}
