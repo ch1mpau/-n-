@@ -12,8 +12,22 @@ body{
     display: flex;
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
     overflow: hidden;
+
+}
+.login-box{
+    background: rgb(107, 139, 234);
+    height: 60%;
+    width: 40%;
+    margin: auto;
+    line-height: 1.5;
+    box-sizing: border-box;
+
 }
 .loginForm{
-    flex: 40%;
-    padding: 50px;
+    width: 900px;
+    height: 8000px;
+    background-color: rgb(178, 178, 198);
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
 }
